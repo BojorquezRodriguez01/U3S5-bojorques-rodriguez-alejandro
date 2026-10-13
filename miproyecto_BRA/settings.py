@@ -15,6 +15,7 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 # Permite el dominio de Render y cualquier otro host
 ALLOWED_HOSTS = ['*']
 
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
